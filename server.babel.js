@@ -1,13 +1,18 @@
 
 import express from 'express';
+import socket from 'socket.io'
 
 const app = express();
 
 app.use('/', express.static('public'));
 
-app.use(function (req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8081');
-  next();
+socket.listen(app);
+
+socket.on('connection', function(socket){
+  console.log('a user connected');
+  socket.on('disconnect', function(){
+    console.log('user disconnected');
+  });
 });
 
 app.listen(process.env.PORT || 3000);
