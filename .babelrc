@@ -1,11 +1,10 @@
 {
   "presets": [
-    "es2015",
-    "stage-0",
-    "react"
+    "next/babel"
   ],
   "plugins": [
-    "transform-runtime",
-    "transform-class-properties"
-  ]
+    ["babel-root-import", {
+      "rootPathSuffix": "components"
+    }]
+  ],
 }

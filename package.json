@@ -1,64 +1,33 @@
 {
   "name": "carpets-at-home",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dackers86/carpets-at-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dackers86/carpets-at-home/issues"
+  },
+  "homepage": "https://github.com/dackers86/carpets-at-home#readme",
   "dependencies": {
-    "axios": "^0.15.3",
-    "babel": "^6.5.2",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-transform-class-properties": "^6.4.0",
-    "babel-plugin-transform-runtime": "^6.4.3",
-    "babel-polyfill": "^6.3.14",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
-    "babel-register": "^6.4.3",
-    "express": "^4.14.0",
-    "jsx": "^0.9.89",
-    "next": "^1.2.3",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "react-hot-loader": "^1.3.1",
-    "react-simple-slider": "^0.2.2",
-    "react-slick": "^0.14.5",
-    "webpack": "^1.14.0"
+    "babel-root-import": "^4.1.8",
+    "next": "beta",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "semantic-ui-css": "^2.2.9",
+    "semantic-ui-react": "^0.67.1"
   },
   "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
-    "babel-npm": "0.0.1",
-    "babel-plugin-transform-class-properties": "^6.19.0",
-    "babel-plugin-transform-runtime": "^6.15.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0",
-    "concurrently": "^1.0.0",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.9.0",
-    "http-server": "^0.9.0",
-    "install": "^0.8.4",
-    "jsx-loader": "^0.13.2",
-    "node-sass": "^4.1.1",
-    "npm": "^4.0.5",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "react-hot-loader": "^1.3.1",
-    "react-router": "^3.0.0",
-    "react-script-loader": "0.0.1",
-    "react-slick": "^0.14.5",
-    "react-stripe-checkout": "^2.2.5",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
-  },
-  "scripts": {
-    "webpack-watch": "webpack -w",
-    "express-server": "node ./server",
-    "dev": "next",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --progress --colors",
-    "build": "webpack --progress --colors"
+    "babel-plugin-root-import": "^5.0.0"
   }
 }
