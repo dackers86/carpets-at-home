@@ -53,7 +53,7 @@ var HeroImage = function (_React$Component) {
                     lineNumber: 8
                 }
             }, _react2.default.createElement(_semanticUiReact.Image, { style: Styles.FullBackgroundImage,
-                src: 'https://thumb1.shutterstock.com/display_pic_with_logo/899620/413684080/stock-photo-interior-with-large-window-d-illustration-413684080.jpg',
+                src: 'http://www.baileyandtaylor.com/popups/pop4.jpg',
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 9
@@ -72,7 +72,8 @@ var Styles = {
         position: 'absolute',
         top: 0,
         left: 0,
-        resizeMode: 'cover'
+        resizeMode: 'cover',
+        zIndex: -1
     }
 };
 

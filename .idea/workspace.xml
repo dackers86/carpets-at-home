@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a72f7e-2816-4743-8cb4-2d6511c250b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/hero/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/menu/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/portfolio/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/1.5dfc35ca2966efff8725.hot-update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/5dfc35ca2966efff8725.hot-update.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/bundles/pages/_error-debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/bundles/pages/_error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/bundles/pages/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.next/commons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/basket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/checkout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/productList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/containers/productList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/procfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reducers/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reducers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.babel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/provider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/measureForm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/_document.json" afterPath="$PROJECT_DIR$/.next/bundles/pages/_document.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/_error.json" afterPath="$PROJECT_DIR$/.next/bundles/pages/_error.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/bundles/pages/index.json" afterPath="$PROJECT_DIR$/.next/bundles/pages/index.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/commons.js" afterPath="$PROJECT_DIR$/.next/commons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/components/hero/index.js" afterPath="$PROJECT_DIR$/.next/dist/components/hero/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/dist/pages/index.js" afterPath="$PROJECT_DIR$/.next/dist/pages/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.next/main.js" afterPath="$PROJECT_DIR$/.next/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/hero/index.js" afterPath="$PROJECT_DIR$/components/hero/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.js" afterPath="$PROJECT_DIR$/pages/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -77,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="495">
+              <caret line="56" column="73" lean-forward="false" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -104,10 +87,22 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/hero/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/measureForm/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +122,10 @@
         <option value="$PROJECT_DIR$/components/product/index.js" />
         <option value="$PROJECT_DIR$/components/portfolio/index.js" />
         <option value="$PROJECT_DIR$/components/menu/index.js" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/components/registrationForm/index.js" />
         <option value="$PROJECT_DIR$/components/hero/index.js" />
+        <option value="$PROJECT_DIR$/components/measureForm/index.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
       </list>
     </option>
   </component>
@@ -199,6 +196,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpets-at-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpets-at-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpets-at-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carpets-at-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measureForm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,12 +347,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489842699665</updated>
       <workItem from="1489842703407" duration="6161000" />
-      <workItem from="1489853753640" duration="9854000" />
+      <workItem from="1489853753640" duration="19853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16015000" />
+    <option name="totallyTimeSpent" value="26014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="970" extended-state="6" />
@@ -388,6 +425,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/hero/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/portfolio/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -406,31 +461,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/measureForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/hero/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+          <caret line="56" column="73" lean-forward="false" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
