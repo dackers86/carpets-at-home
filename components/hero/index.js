@@ -7,7 +7,7 @@ class HeroImage extends React.Component {
         return (
             <div>
                 <Image style={Styles.FullBackgroundImage}
-                       src='http://www.baileyandtaylor.com/popups/pop4.jpg'
+                       src='https://s-media-cache-ak0.pinimg.com/564x/37/fc/a1/37fca155dc03aa42529f646bb35a9ce9.jpg'
                 />
             </div>
         )
