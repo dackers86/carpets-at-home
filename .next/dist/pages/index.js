@@ -97,6 +97,15 @@ var _class = function (_React$Component) {
                     fileName: _jsxFileName,
                     lineNumber: 19
                 }
+            })), _react2.default.createElement(_semanticUiReact.Container, {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 21
+                }
+            }, _react2.default.createElement(_semanticUiReact.Icon, { name: 'angle double down icon', size: 'big', color: 'red', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 22
+                }
             })));
         }
     }, {
@@ -105,7 +114,7 @@ var _class = function (_React$Component) {
             return _react2.default.createElement('div', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 27
+                    lineNumber: 30
                 }
             });
         }
@@ -115,22 +124,22 @@ var _class = function (_React$Component) {
             return _react2.default.createElement('div', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 33
+                    lineNumber: 36
                 }
             }, _react2.default.createElement(_head2.default, {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 34
+                    lineNumber: 37
                 }
             }, _react2.default.createElement('title', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 35
+                    lineNumber: 38
                 }
             }, 'Carpets At Home'), _react2.default.createElement('link', { rel: 'stylesheet',
                 href: '//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 36
+                    lineNumber: 39
                 }
             })), this.renderHomePage());
         }

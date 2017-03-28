@@ -29,6 +29,8 @@
     "semantic-ui-react": "^0.67.1"
   },
   "devDependencies": {
-    "babel-plugin-root-import": "^5.0.0"
+    "babel-cli": "^6.24.0",
+    "babel-plugin-root-import": "^5.0.0",
+    "babel-preset-es2015": "^6.24.0"
   }
 }

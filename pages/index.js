@@ -4,10 +4,10 @@ import MainMenu from '~/menu'
 import Hero from '~/hero'
 import MeasureForm from '~/measureForm'
 import HeaderMessage from '~/headerMessage'
-import { Container } from 'semantic-ui-react'
+import { Container, Icon } from 'semantic-ui-react'
 
 export default class extends React.Component {
-    
+
     renderHomePage() {
         return (
             <div>
@@ -18,6 +18,9 @@ export default class extends React.Component {
                 <Container>
                     <MeasureForm />
                 </Container>
+              <Container>
+                <Icon name='angle double down icon' size='big' color='red' />
+              </Container>
             </div>
         )
     }

@@ -67,12 +67,11 @@ class HeaderMessage extends React.Component {
 
       return <Message
         success
-        header="Wehey!"
         content={message}
       />
     }
 
-    message = `You are ${this.state.distance.toFixed(1)} miles away`;
+    message = `You are only ${this.state.distance.toFixed(1)} miles away`;
 
     return <Message
       failure
